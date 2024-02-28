@@ -1,0 +1,18 @@
+.contenido {
+    display: grid;
+    gap: 4rem;
+}
+
+/* .contenido img {
+    height: auto;
+    width: auto;
+    max-width: 40rem;
+    max-height: 70rem;
+} */
+
+@media (min-width: 768px) {
+    .contenido {
+        grid-template-columns: repeat(2, 2fr);
+        align-items: center;
+    }
+}
